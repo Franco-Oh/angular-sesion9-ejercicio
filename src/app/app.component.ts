@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ejercicio-9';
+  activado! : boolean;
+  inactive = "Activa el checkbox para mostrar el contenido"
 }
